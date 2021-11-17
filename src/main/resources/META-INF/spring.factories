@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+store.lijia.web.config.WebAutoConfiguration,\
+store.lijia.web.secret.SecretAutoConfiguration,\
+store.lijia.web.redis.RedisAutoConfiguration
