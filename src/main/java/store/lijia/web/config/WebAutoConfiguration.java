@@ -19,5 +19,4 @@ public class WebAutoConfiguration implements WebMvcConfigurer {
 
 
 
-
 }
