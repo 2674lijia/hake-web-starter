@@ -11,8 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * @version 1.0.0
  * @description
  * @createTime 2021/11/11 下午2:21
- * @company 杭州车凌网络科技有限公司
- * @address 杭州市滨江区聚光中心B座705
+*
  */
 public class RedisQueueServiceImpl implements RedisQueueService {
     private final static Logger logger = LoggerFactory.getLogger(RedisQueueServiceImpl.class);

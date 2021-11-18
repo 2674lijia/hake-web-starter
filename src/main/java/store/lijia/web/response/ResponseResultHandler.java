@@ -16,8 +16,7 @@ import store.lijia.web.exception.InfoException;
  * @version 1.0.0
  * @description 请求相应通知处理
  * @createTime 2021/11/9 下午1:17
- * @company 杭州车凌网络科技有限公司
- * @address 杭州市滨江区聚光中心B座705
+*
  */
 @EnableConfigurationProperties(value = ResponseConfigProperties.class)
 @RestControllerAdvice

@@ -13,8 +13,7 @@ import java.util.concurrent.TimeUnit;
  * @version 1.0.0
  * @description
  * @createTime 2021/11/12 上午10:47
- * @company 杭州车凌网络科技有限公司
- * @address 杭州市滨江区聚光中心B座705
+*
  */
 @AutoConfigureAfter(RedisBaseTemplate.class)
 public class RedisListOperations<K,V>{

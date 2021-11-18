@@ -23,16 +23,15 @@ import java.util.List;
 
 /**
  * Swagger配置启动
+ *
  * @author lijia
  * @version 1.0.0
  * @description
  * @createTime 2021/11/9 下午3:40
- * @company 杭州车凌网络科技有限公司
- * @address 杭州市滨江区聚光中心B座705
  */
 @EnableSwagger2
 @EnableConfigurationProperties(value = SwaggerProperties.class)
-@ConditionalOnProperty(name = "hake.swagger.enable",havingValue = "true")
+@ConditionalOnProperty(name = "hake.swagger.enable", havingValue = "true")
 public class SwaggerAutoConfiguration {
 
 

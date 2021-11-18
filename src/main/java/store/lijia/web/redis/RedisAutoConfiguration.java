@@ -38,8 +38,7 @@ import java.util.function.Consumer;
  * @version 1.0.0
  * @description
  * @createTime 2021/11/11 下午2:02
- * @company 杭州车凌网络科技有限公司
- * @address 杭州市滨江区聚光中心B座705
+*
  */
 @EnableConfigurationProperties(RedisQueueProperties.class)
 @ConditionalOnBean({org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration.class})

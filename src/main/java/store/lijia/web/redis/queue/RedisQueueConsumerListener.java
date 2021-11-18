@@ -7,8 +7,7 @@ import java.lang.annotation.*;
  * @version 1.0.0
  * @description
  * @createTime 2021/11/12 下午2:54
- * @company 杭州车凌网络科技有限公司
- * @address 杭州市滨江区聚光中心B座705
+*
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
