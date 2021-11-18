@@ -1,6 +1,9 @@
-### hake-web-starter (java web快速启动)
+# 简介 （hake-web-starter ）
 
-#### 请求响应数据封装
+基于SpringBoot的JAVA Web应用快速启动器
+
+# 模块
+### 请求响应数据封装
 
 使用`@JsonResultController`注解来代替`@RestController`，数据会自动封装到data下。\
 `@JsonResultController`是一个聚合注解，包含了`@RestController`注解。\
@@ -33,7 +36,7 @@ public class InfoController {
 }
 ```
 
-#### 参数响应加密
+### 参数响应加密
 
 使用3DES对称加密算法 ，并通过Base64进行字符串转换。\
 yaml配置说明
@@ -116,12 +119,12 @@ hake:
       description: 请求头token #参数描述 默认为`请求头token`
 ```
 
-#### jackson全局配置
+### jackson全局配置
 
 默认时间日期格式为 ``yyyy-MM-dd HH:mm:ss``\
 Long类型转换 ``Long ---> String``
 
-#### redis队列使用
+### redis队列使用
 
 yaml配置说明
 
